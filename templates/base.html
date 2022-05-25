@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <style>
+      body {background-color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        color:aliceblue;
+        padding-top: 10vh;
+      }
+    </style>
+    <title>Snacks</title>
+  </head>
+  <body>
+    <nav>
+      <a href="{% url 'snack_list' %}">List</a>
+    </nav>
+    {% block content %}
+
+    {% endblock %}
+  </body>
+</html>
